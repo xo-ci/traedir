@@ -1,5 +1,5 @@
 services:
-  traedir:
+  traediro:
     image: nginx:alpine
     container_name: traediro
     volumes:
