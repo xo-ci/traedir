@@ -1,7 +1,6 @@
 services:
-  traediro:
+  traedir:
     image: nginx:alpine
-    container_name: traediro
     volumes:
       - ./traedir.conf:/etc/nginx/conf.d/default.conf
       - ./traedir.html:/usr/share/nginx/html/403.html
